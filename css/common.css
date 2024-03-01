@@ -13,3 +13,87 @@ body {
   line-height: 1.5;
 }
 
+/* -------------- task-1 -----------------------*/
+
+#categories {
+  list-style-type: none;
+}
+
+/* -------------- task-2 -----------------------*/
+
+.gallery {
+  display: flex;
+	flex-wrap: wrap;
+	gap: 50px 25px
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+/* -------------- task-3 -----------------------*/
+
+#name-input {
+  width: 360px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* -------------- task-4 -----------------------*/
+
+button {
+  font-family: "Montserrat";
+  width: 86px;
+  height: 40px;
+  border-radius: 8px;
+  border: transparent;
+  background-color: #4E75FF;
+}
+
+/* -------------- task-5 -----------------------*/
+
+.change-color {
+  font-family: "Montserrat";
+  width: 148px;
+  height: 40px;
+  border-radius: 8px;
+  border: transparent;
+  color: #FFFFFF;
+  background-color: #4E75FF;
+}
+
+.widget {
+  display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+/* -------------- task-6 -----------------------*/
+
+input {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid #808080;
+}
+
+button[data-create] {
+  font-family: "Montserrat";
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: transparent;
+  color: #FFFFFF;
+  background-color: #4E75FF;
+}
+
+button[data-destroy] {
+  font-family: "Montserrat";
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: transparent;
+  color: #FFFFFF;
+  background-color: #FF4E4E;
+}
