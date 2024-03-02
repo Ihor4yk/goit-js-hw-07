@@ -4,8 +4,8 @@ const outName = document.querySelector("#name-output");
 userName.addEventListener("input", handleInput);
 function handleInput(event) {
   if (event.currentTarget.value.trim() === "") {
-    outName.textContent = "Anonymous";
+    console.log(outName.textContent = "Anonymous");
   } else {
-    event.currentTarget.value.trim();
+    console.log(event.currentTarget.value.trim());
   }
 }
